@@ -5,8 +5,20 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-      <h1 class="title">Hello World!</h1>
-      <p id="currentTime"></p>
+      <div class="chat container">
+          <header>
+            <h1>chat bot de Samuel</h1>
+          </header>
+          <div id="chat box" class="chat-box">
+            <div class="message user-message">hola</div>
+            <div class="message bot-message">hola</div>
+          </div>
+          <div class="input-area">
+            <input type="text" id="user-input" placeholder="escribe tu mensaje">
+            <button id="send-btn"> Enviar </button>
+          </div>
+      </div>
       <script src="script.js"></script>
-  </body>
-</html>
+    </body>
+  </html>
+
